@@ -18,3 +18,8 @@ spec:
         image: vue-app-hello-world
         ports:
         - containerPort: 3000
+      - name: dummy-headless-node-server
+        imagePullPolicy: Never
+        image: dummy-headless-node-server
+        ports:
+        - containerPort: 5000
